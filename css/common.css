@@ -1,0 +1,102 @@
+.container {
+    width: 1500px; margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+header .container {
+    width: 100%;
+    max-width: 1530px;
+    padding: 0 60px 0 30px;
+    margin: 0 auto;
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+header .container .topFamLink {
+    position: absolute; left: 30px; top: 0; display: inline-block;
+}
+
+header .container .topFamLink a {
+    width: 100px; height: 30px;
+    margin-right: 2px;
+    background-color: #fff;
+    border: 1px solid #b99764;
+    border-top: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 27px;
+    color: #b99764;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 0 0 2px 2px;
+}
+
+header .container .topFamLink a:first-child,
+header .container .topFamLink a:hover {
+    background-color: #b99764;
+    color: #fff;
+}
+
+header .container #sua .link, 
+header .container #sua a {
+    display: inline-block; vertical-align: middle;
+}
+
+header .container #sua {
+    position: absolute; right: 60px; top: 0; display: inline-block;
+}
+
+header .container #sua .link {
+    padding: 25px 0 0;
+}
+
+header .container #sua .link a {
+    padding: 0 7px 0 8px;
+    background: url(../img/line_sua.gif) no-repeat left top;
+    font-size: 12px;
+    line-height: 1;
+    color: #9c8e73;
+    display: inline-block;
+    vertical-align: top;
+}
+
+header .container #sua .link a:first-child {
+    background: none;
+}
+
+header .container #gnb {
+    height: 40px;
+    position: absolute; right: 60px; top: 75px;
+    display: inline-block;
+}
+
+header .container #gnb ul {
+    width: 100%;
+}
+
+header .container #gnb ul li {
+    padding: 0 31px 0 31px;
+    background: url(../img/line_sua.gif) no-repeat left 3px;
+    display: inline-block; vertical-align: top;
+}
+
+header .container #gnb ul li.gnb01 {
+    padding-left: 0; background: none;
+}
+
+header .container #gnb ul li a {
+    height: 21px; display: block;
+    font-size: 18px; font-weight: 700;
+    padding-top: 9px;
+}
+
+header .container #gnb ul li a:hover {
+    color: red;
+}
